@@ -32,7 +32,7 @@ const RightAside = () => {
         <div>
           <Card shadow="none" radius="sm" className="border">
             <CardHeader className="text-2xl font-bold">
-              TEN Community is a community of amazing developers
+              TechRise is a community of amazing individuals
             </CardHeader>
             <CardBody>
               We&apos;re a place where coders share, stay up-to-date and grow
