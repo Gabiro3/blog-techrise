@@ -67,16 +67,16 @@ const PostCard = ({ post }: { post: TPost }) => {
               </h3>
               <div className="pt-2">
                 <Button size="sm" variant="light">
-                  #Javascript
+                  #TechRise
                 </Button>
                 <Button size="sm" variant="light">
-                  #React.js
+                  #Technology
                 </Button>
                 <Button size="sm" variant="light">
-                  #Next.js
+                  #Community
                 </Button>
                 <Button size="sm" variant="light">
-                  #Typescript
+                  #AI
                 </Button>
               </div>
             </div>
