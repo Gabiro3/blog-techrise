@@ -48,7 +48,7 @@ const Page = () => {
     <main className="flex items-center justify-center h-[calc(100vh_-_75px)]">
       <div className="sm:w-2/5 w-11/12">
         <h1 className="text-3xl font-semibold mb-4">
-          Welcome back to next-blog
+          Welcome back to TechRise Blog
         </h1>
         <div className="mt-4 mb-10">
           <p>

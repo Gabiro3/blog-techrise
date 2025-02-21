@@ -106,17 +106,17 @@ const RightAside = () => {
         </div>
       )}
 
-      <Card shadow="none" className="pt-4">
-        <CardHeader>
-          TEN blog A constructive and inclusive social network for software
-          developers. With you every step of your journey.
-        </CardHeader>
-        <CardBody>
-          Built using Nextjs, typescript, prisma, mongoDB, tailwindCSS, NextUI
-          and editorjs .
-        </CardBody>
-        <CardFooter>Made with love and Nextjs. TEN blog © 2023.</CardFooter>
-      </Card>
+<Card shadow="none" className="pt-4">
+  <CardHeader>
+    TEN blog: A constructive and inclusive social network for software developers. With you every step of your journey.
+  </CardHeader>
+  <CardBody>
+    <br />
+    Want more content? Follow us on our social media or join our e-learning platform at <a href="https://elearning.techriserwanda.org" target="_blank" rel="noopener noreferrer">elearning.techriserwanda.org</a> to expand your skills and connect with others.
+  </CardBody>
+  <CardFooter>Made with love. TechRise Rwanda © 2025.</CardFooter>
+</Card>
+
     </aside>
   );
 };

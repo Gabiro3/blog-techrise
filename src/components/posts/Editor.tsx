@@ -18,6 +18,7 @@ import { TPost } from "@/lib/types";
 
 type TForm = {
   title: string;
+  description: string;
   image: Blob | MediaSource;
   postType: "DRAFT" | "PUBLISHED";
 };
@@ -34,7 +35,7 @@ const Editor = ({ post }: { post: TPost | null }) => {
     setValue,
     watch,
     formState: { isSubmitting, errors },
-  } = useForm<TForm>({ defaultValues: { title: post?.title } });
+  } = useForm<TForm>({ defaultValues: { title: post?.title, description: post?.content} });
   const postType = watch("postType");
 
   const [imageFile, setImageFile] = useState<any>(null);
@@ -273,6 +274,12 @@ const Editor = ({ post }: { post: TPost | null }) => {
             {...register("title", { required: true })}
             aria-label="Post Title"
             placeholder="New post title here..."
+            className="lg:text-5xl md:text-4xl text-3xl leading-tight resize-none w-full md:font-extrabold font-bold outline-none text-[rgb(68, 64, 60)]"
+          />
+          <TextareaAutosize
+            {...register("description", { required: true })}
+            aria-label="Post Description"
+            placeholder="New post description here..."
             className="lg:text-5xl md:text-4xl text-3xl leading-tight resize-none w-full md:font-extrabold font-bold outline-none text-[rgb(68, 64, 60)]"
           />
         </div>
