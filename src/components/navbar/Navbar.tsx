@@ -13,7 +13,6 @@ import {
 } from "@nextui-org/react";
 import Icon from "../Icon";
 import Image from "next/image";
-import Logo from "/lg.png";
 
 import { useAppDispatch, useAppSelector } from "@/hooks/reduxHooks";
 
@@ -55,7 +54,7 @@ const Navbar = () => {
   <Link href="/" aria-label="next-blog home page">
     <a>
       <Image 
-        src={Logo}
+        src="/lg.png"
         alt="Logo" 
         width={100}  // Adjust width as needed
         height={40}  // Adjust height as needed
