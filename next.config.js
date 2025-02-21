@@ -7,6 +7,12 @@ const nextConfig = {
         hostname: "res.cloudinary.com",
       },
     ],
+    localPatterns: [
+      {
+        pathname: '/assets/**',
+        search: '',
+      },
+    ],
   },
 };
 

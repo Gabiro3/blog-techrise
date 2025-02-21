@@ -276,12 +276,6 @@ const Editor = ({ post }: { post: TPost | null }) => {
             placeholder="New post title here..."
             className="lg:text-5xl md:text-4xl text-3xl leading-tight resize-none w-full md:font-extrabold font-bold outline-none text-[rgb(68, 64, 60)]"
           />
-          <TextareaAutosize
-            {...register("description", { required: true })}
-            aria-label="Post Description"
-            placeholder="New post description here..."
-            className="lg:text-5xl md:text-4xl text-3xl leading-tight resize-none w-full md:font-extrabold font-bold outline-none text-[rgb(68, 64, 60)]"
-          />
         </div>
         <div id="editor" className="prose max-w-full" />
       </div>
