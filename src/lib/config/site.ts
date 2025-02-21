@@ -1,7 +1,7 @@
 export const siteConfig = {
-  name: "next blog",
-  description: "A Next.js blog app where users can read and write blog posts",
-  url: "https://next-blog-tehseen01.vercel.app",
+  name: "techrise blog",
+  description: "A TechRise blog app where users can read and write blog posts",
+  url: "https://blog.techriserwanda.org",
   ogImage: "https://tx.shadcn.com/og.jpg",
   links: {
     twitter: "https://twitter.com/tehseen01",

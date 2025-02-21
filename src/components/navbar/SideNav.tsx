@@ -27,33 +27,20 @@ const SideNav = () => {
         <li>
           <Button
             as={Link}
-            href="https://github.com/tehseen01"
+            href="https://techriserwanda.org"
             target="_blank"
             isIconOnly
             variant="light"
             color="primary"
             className="text-black group"
           >
-            <Icon name="github" strokeWidth={1.25} />
+            <Icon name="search" strokeWidth={1.25} />
           </Button>
         </li>
         <li>
           <Button
             as={Link}
-            href="https://x.com/tehseen_type"
-            target="_blank"
-            isIconOnly
-            variant="light"
-            color="primary"
-            className="text-black group"
-          >
-            <Icon name="twitter" strokeWidth={1.25} />
-          </Button>
-        </li>
-        <li>
-          <Button
-            as={Link}
-            href="https://www.linkedin.com/in/tehseen01/"
+            href="https://rw.linkedin.com/company/techriserwanda"
             target="_blank"
             isIconOnly
             variant="light"
@@ -66,7 +53,7 @@ const SideNav = () => {
         <li>
           <Button
             as={Link}
-            href="https://www.instagram.com/tehseen.01/"
+            href="https://www.instagram.com/techriserwanda"
             target="_blank"
             isIconOnly
             variant="light"
@@ -74,6 +61,19 @@ const SideNav = () => {
             className="text-black group"
           >
             <Icon name="instagram" strokeWidth={1.25} />
+          </Button>
+        </li>
+        <li>
+          <Button
+            as={Link}
+            href="https://youtube.com/@rwandatechrise?si=8I61aaP_upPcAf9B"
+            target="_blank"
+            isIconOnly
+            variant="light"
+            color="primary"
+            className="text-black group"
+          >
+            <Icon name="youtube" strokeWidth={1.25} />
           </Button>
         </li>
       </ul>

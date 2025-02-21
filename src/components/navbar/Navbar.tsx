@@ -13,7 +13,7 @@ import {
 } from "@nextui-org/react";
 import Icon from "../Icon";
 import Image from "next/image";
-import Logo from "../../../public/lg.png";
+import Logo from "/lg.png";
 
 import { useAppDispatch, useAppSelector } from "@/hooks/reduxHooks";
 
